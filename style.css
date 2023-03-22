@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Golos+Text&family=Inter:wght@300;500&family=Montserrat:wght@400;500&family=Mukta&family=Nanum+Gothic&family=Open+Sans:wght@300;500&family=Orbitron&family=Poppins:wght@100&family=Shantell+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    padding: 30px 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    height: 40px;
+}
+
+nav a {
+    color: #188fff;
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 200;
+
+}
+
+.Hero-section {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 90%;
+    margin-top: 20px;
+    display: flex;
+    padding: 20px 160px;
+}
+
+.image-section {
+    width: 60%;
+    margin-right: 50px;
+
+}
+
+.image-section img {
+    height: 320px;
+    width: 648px;
+
+}
+
+
+.image {
+    height: 100%;
+    background-color: white;
+}
+
+
+.clr {
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter: blur(40px);
+    height: 30px;
+    width: 650px;
+}
+
+.image h2{
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    font-size: 23px;
+    margin-bottom: 30px;
+    
+}
+
+.image p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.image button{
+    width: 150px;
+    height: 38px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+
+}
+
+.image h5{
+    float: right;
+    margin-top: 40px;
+    color: gray;
+    font-weight: 500;
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+label{
+    margin-top: 50px;
+    margin-right: 20%;
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.login-section {
+    
+    background-color: white;
+    padding: 10px 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    width: 50%;
+    
+}
+.yahoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    width: 100%;
+}
+
+.yahoo h4{
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.yahoo p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.login-section img{
+    height: 25px;
+    margin-top: 20px;
+
+}
+
+ input{
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #188fff;
+    background-color: white;
+    width: 140%;
+}
+
+button{
+    width: 150%;
+    margin-top: 20px;
+    height: 40px;
+    background-color: #188fff;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+
+.checkbox{
+ 
+        display: block;
+        margin-top: 10%;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 15px;
+        width: 100%;
+        color: #188fff;
+    
+}
+
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee; 
+  }
+
+.box{
+    display: flex;
+    font-size: 14px;
+    width: 150%;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.box a{
+    margin-left: -10px;
+    font-weight: 500;
+    color: #188fff;
+    text-decoration: none;
+}
+
+.pw{
+    font-size: 14px;
+}
+
+
+ .btn{
+    border: 1px solid #188fff;
+    background-color: white;
+    color: #188fff;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+ }
+
+ form h4{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 14px;
+    margin-top: 8%;
+    margin-left: 120px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.btn-2 img{
+    height: 30px;
+    margin-bottom: 20px;
+}
